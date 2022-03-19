@@ -18,3 +18,25 @@ section{
 .layer1{
     background-image: url('./lwave1.svg');
 }
+
+.socmed{
+    position: fixed;
+    bottom:-90px;
+    right:20px;
+    height: 100px;
+    width: 50px;
+    background-color: #7f72f0;
+    border-radius: 10px 10px 0 0;
+}
+
+.icon-socmed{
+    
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.socmed:hover{
+    bottom:0px;
+    transition: 500ms;
+}

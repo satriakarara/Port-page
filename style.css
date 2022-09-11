@@ -21,9 +21,9 @@ section{
 
 .socmed{
     position: fixed;
-    bottom:-140px;
+    bottom:-90px;
     right:20px;
-    height: 150px;
+    height: 100px;
     width: 50px;
     background-color: #7f72f0;
     border-radius: 10px 10px 0 0;

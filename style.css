@@ -29,6 +29,13 @@ section{
     border-radius: 10px 10px 0 0;
 }
 
+
+.modal-dialog{
+    max-width: none;
+    display: flex;
+    justify-content: center;
+}
+
 .icon-socmed{
     
     padding-left: 10px;

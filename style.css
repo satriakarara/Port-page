@@ -132,3 +132,17 @@ section{
     opacity:0;
     transition: ease-in-out 0.5s;
 }
+
+.jumbotron{
+    display:flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profpic{
+    width: 350px;
+    height: 350px;
+    background-image: url('/img/blob2.svg');
+    background-position: 35px -9px;
+}

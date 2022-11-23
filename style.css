@@ -48,31 +48,45 @@ section{
     transition: 500ms;
 }
 
+.projectParrent{
+    width:1500px;
+    margin:auto;
+}
+
 .projectCard{
-    display: flex;
-    height: 200px;
+    /* display: flex; */
+    height: 350px;
+    width: 392px;
+    background: white;
     margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .projectContainer{
     display: flex;
-    flex-direction: column;
-    margin-left: 100px;
 }
 
-.cardImage{
-    width:100%;
+.projectContainer > *{
+    margin-right: 30px;
 }
 
 .cardImg{
-    width: 350px;
-    height: 197px;
+    width: 392px;
+    height: 250px;
+    margin-left: -12px;
+    object-fit: cover;
 }
 
 .cardTextContainer{
-    display: flex;
     align-items: center;
-    margin-left: 40px;
+    padding: 20px 15px;
+    font-family: Raleway;
+}
+
+.cardTextTitle{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 /* .loaderWrapper{
@@ -146,3 +160,43 @@ section{
     background-image: url('/img/blob2.svg');
     background-position: 35px -9px;
 }
+
+.circle{
+    top: -112px;
+    left: 658px;
+    width: 922px;
+    height: 902px;
+    /* background: var(--unnamed-color-387546) 0% 0% no-repeat padding-box; */
+    background: #387546 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.about{
+    display: flex;
+}
+
+.programmingPic{
+    width: 339px;
+}
+
+.project2{
+    font-size: 50px;
+    margin-top: -10px;
+    font-weight: 600;  
+}
+
+@media (width >= 1580px) {
+    .jumbotronText {
+      width:433px !important;
+    }
+
+    .jumbotron{
+        display: flex;
+        margin-top: 70px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 350px;
+    }
+
+    
+  }

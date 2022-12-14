@@ -250,6 +250,7 @@ section{
         background-image: url(/img/blob2.svg);
         background-position: 35px -9px;
         width: 90% !important;
+        height: 90% !important;
     }
 }
 

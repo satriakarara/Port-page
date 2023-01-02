@@ -263,6 +263,10 @@ section{
         width: 90% !important;
         height: 90% !important;
     }
+
+        .projectContainer>* {
+            margin-right: 0px;
+        }
 }
 
 @media (width >=1000px) {

@@ -137,6 +137,7 @@ section{
     transform: translate(-50%,-50%);
     animation-name: fadeOut;
     animation-duration: 1s;
+    z-index: 10001;
 }
 @keyframes fadeOut {
     from{opacity: 0%;}
@@ -165,7 +166,7 @@ section{
 .profpic{
     width: 350px;
     height: 350px;
-    background-image: url('/img/blob-new.svg');
+    /* background-image: url('/img/blob-new.svg'); */
     background-position: 35px -9px;
 }
 

@@ -306,7 +306,7 @@ section{
     gap: 100px;
 }
 
-.skillChild {
+.skillCard {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -315,7 +315,7 @@ section{
     padding: 10px;
     background-color: white;
     border-radius: 5px;
-    height:250px;
+    height:325px;
 }
 .skillDetailTitle {
     font-size: 20px;
@@ -386,6 +386,13 @@ section{
 
 .skillDetailPercentageMySQL {
     width: 90%;
+    height: 10px;
+    background-color: #002E74;
+    border-radius: 10px;
+}
+
+.skillDetailPercentageRN {
+    width: 30%;
     height: 10px;
     background-color: #002E74;
     border-radius: 10px;

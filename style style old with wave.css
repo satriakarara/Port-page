@@ -1,9 +1,6 @@
-body {
-background-color: #E2EDFF;
-}
 .jumbotron{
     padding-top: 6rem;
-    background-color: #E2EDFF;
+    background-color: #e2edff;
 }
 
 section{
@@ -28,7 +25,7 @@ section{
     right:20px;
     height: 150px;
     width: 50px;
-    /* background-color: #002E74; */
+    background-color: #002E74;
     border-radius: 10px 10px 0 0;
     border-top: solid gray 1px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -209,7 +206,7 @@ section{
     .jumbotron{
         display: flex;
         margin-top: 70px;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         padding: 4rem 350px;
     }
@@ -219,7 +216,7 @@ section{
 
 @media (width >=850px) {
     .jumbotronText {
-        /* transform: skewY(-11deg); */
+        transform: skewY(-11deg);
         margin-top: 50px;
     }
 }
@@ -257,7 +254,7 @@ section{
         right: 5px;
         height: 130px;
         width: 50px;
-        /* background-color: #002E74; */
+        background-color: #002E74;
         border-radius: 10px 10px;
         top: 80px;
         transition: 1s;
@@ -284,132 +281,3 @@ section{
         width:50%;
     }
 }
-
-.newSocmedContainer {
-    display: flex;
-    flex-direction: column;
-    height: 152px;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-
-.newSocmedContainer > a:hover {
-    transform: scale(1.2);
-    transition: transform 0.2s ;
-    transition-timing-function: ease-in-out;
-}
-
-.skillContainer {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-
-.skillChild {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
-    height:250px;
-}
-.skillDetailTitle {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.skillDetailContent {
-    
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.skillDetailName {
-    margin-right: 10px;
-    min-width: 60px;
-}
-
-.skillDetailBar {
-    width: 90%;
-    height: 10px;
-    background-color: #E2EDFF;
-    border-radius: 10px;
-}
-
-.skillDetailText{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-bottom: 5px;
-}
-
-.skillDetailPercentageReact {
-    width: 65%;
-    height: 10px;
-    background-color: #002E74;
-    border-radius: 10px;
-}
-
-.skillDetailPercentageCSS {
-    width: 85%;
-    height: 10px;
-    background-color: #002E74;
-    border-radius: 10px;
-}
-
-.skillDetailPercentageHTML {
-    width: 75%;
-    height: 10px;
-    background-color: #002E74;
-    border-radius: 10px;
-}
-
-.skillDetailPercentageNode {
-    width: 85%;
-    height: 10px;
-    background-color: #002E74;
-    border-radius: 10px;
-}
-
-.skillDetailPercentagePHP {
-    width: 60%;
-    height: 10px;
-    background-color: #002E74;
-    border-radius: 10px;
-}
-
-.skillDetailPercentageMySQL {
-    width: 90%;
-    height: 10px;
-    background-color: #002E74;
-    border-radius: 10px;
-}
-
-@media (width >= 1580px) {
-   
-    .jumbotron {
-        margin: 250px 0px
-    }
-    
-    #about {
-        margin: 150px 0px
-    }
-
-    #skills {
-        margin: 150px 0px
-    }
-
-    #projects {
-        margin: 100px 0px
-    }
-
-    #contact {
-        margin: 50px 0px
-    }
-  }

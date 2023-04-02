@@ -281,7 +281,7 @@ section{
     }
 
     .newSocmedContainer{
-        display:none;
+        display:none !important;
     }
     .project2{
         font-size: 35px;
@@ -450,6 +450,25 @@ section{
 
     #skills {
         margin: 150px 0px
+    }
+
+    #projects {
+        margin: 100px 0px
+    }
+
+    #contact {
+        margin: 50px 0px
+    }
+  }
+
+  @media (width <= 550px) {
+    
+    #about {
+        margin: 50px 0px
+    }
+
+    #skills {
+        margin: 50px 0px
     }
 
     #projects {

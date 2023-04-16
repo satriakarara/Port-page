@@ -363,6 +363,17 @@ section{
     }
 }
 
+@media (width>=1870px){
+    .newSocmedContainer {
+        display: flex;
+        flex-direction: column;
+        height: 152px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right:-100px
+    }
+}
+
 .newSocmedContainer > a:hover {
     transform: scale(1.2);
     transition: transform 0.2s ;

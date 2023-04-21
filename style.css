@@ -352,6 +352,18 @@ section{
     
 }
 
+.socmedCircle {
+    background-color: transparent;
+    color: #002E74;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 @media (width>=1000px){
     .newSocmedContainer {
         display: flex;
@@ -375,8 +387,9 @@ section{
 }
 
 .newSocmedContainer > a:hover {
-    transform: scale(1.2);
-    transition: transform 0.2s ;
+    text-decoration: none;
+    background-color: #002E74;
+    color:white;
     transition-timing-function: ease-in-out;
 }
 .skillDetailTitle {

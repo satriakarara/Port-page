@@ -66,7 +66,25 @@ section{
     margin-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: transform 0.2s;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+@media only screen 
+  and (min-width: 991px) 
+  and (max-width: 1366px) {
+    .projectCard{
+        /* display: flex; */
+        height: 350px;
+        width: 311px;
+        background: white;
+        margin-bottom: 50px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: transform 0.2s;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
 
 .cardImg{
     width: 100%;
@@ -87,6 +105,14 @@ section{
     height: 250px;
     /* margin-left: -12px; */
     background-position-y: -30px;
+}
+
+.cardImgPhoneSmarthome{ 
+    background-image: url('img/projects/smarthome_1.jpg');
+    background-size: cover;
+    /* width: 392px; */
+    height: 250px;
+    /* margin-left: -12px; */
 }
 
 .cardTextTitle{
@@ -502,7 +528,15 @@ section{
     }
 
     .projectContainer{
-        display: flex;
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 20px;
+            /* background-color: #2196F3; */
+            /* padding: 25px; */
+            /* justify-content: center; */
+            /* text-align: center; */
+            margin: 0px 160px;
     }
   }
 

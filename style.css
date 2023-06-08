@@ -1,9 +1,9 @@
 body {
-background-color: #E2EDFF;
+background-color: #B9E6FF;
 }
 .jumbotron{
     padding-top: 6rem;
-    background-color: #E2EDFF;
+    background-color: transparent;
 }
 
 section{
@@ -157,10 +157,8 @@ section{
     left:0;
     top:0;
     width: 100%;
-    height: 100vh;
-    background-image: url(/img/background.jpg);
+    height: 100%;
     transition: 0.5s;
-    background-size: cover;
 }
 
 .logo{
@@ -247,6 +245,7 @@ section{
     .jumbotronText {
         /* transform: skewY(-11deg); */
         margin-top: 50px;
+        color:#FFFFFF
     }
     .skillContainer {
         display: flex;
@@ -273,6 +272,10 @@ section{
     .hiddenPhone{
         visibility: hidden;
         width:0%
+    }
+
+    .lottieBackground{
+        scale: 1 !important;
     }
 
     .skillContainer{
@@ -382,7 +385,7 @@ section{
 
 .socmedCircle {
     background-color: transparent;
-    color: #002E74;
+    color: #FFFFFF;
     border-radius: 50%;
     width: 35px;
     height: 35px;
@@ -445,7 +448,7 @@ section{
 .skillDetailBar {
     width: 90%;
     height: 10px;
-    background-color: #E2EDFF;
+    background-color: #B9E6FF;
     border-radius: 10px;
 }
 
@@ -505,6 +508,19 @@ section{
     border-radius: 10px;
 }
 
+.lottieBackground{
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right: auto;
+    scale: 1.2;
+}
+
+
 @media (width >= 1000px) {
    
     .jumbotron {
@@ -512,7 +528,8 @@ section{
     }
     
     #about {
-        margin: 150px 0px
+        padding: 150px 0px;
+        background-color:#B9E6FF;
     }
 
     #skills {

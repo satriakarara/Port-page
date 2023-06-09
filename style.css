@@ -245,7 +245,7 @@ section{
     .jumbotronText {
         /* transform: skewY(-11deg); */
         margin-top: 50px;
-        color:#FFFFFF
+        /* color:#FFFFFF; */
     }
     .skillContainer {
         display: flex;
@@ -385,7 +385,7 @@ section{
 
 .socmedCircle {
     background-color: transparent;
-    color: #FFFFFF;
+    color: #002E74;
     border-radius: 50%;
     width: 35px;
     height: 35px;
@@ -511,13 +511,36 @@ section{
 .lottieBackground{
     position: absolute;
     z-index: -1;
-    width:100%;
-    height:100%;
+    width: inherit;
     left:0;
     right:0;
     margin-left:auto;
     margin-right: auto;
     scale: 1.2;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* @media (width <= 1400px)  {
+    .lottieBackground{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height:100%;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right: auto;
+        scale: 1.2;
+        transition: opacity 0.5s ease-in-out;
+    }
+} */
+
+#skills{
+    background-image: url(/img/projects/React-icon.svg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
 }
 
 
@@ -533,7 +556,7 @@ section{
     }
 
     #skills {
-        margin: 150px 0px
+        padding: 150px 0px
     }
 
     #projects {
@@ -568,7 +591,7 @@ section{
     }
 
     #skills {
-        margin: 50px 0px;
+        padding: 50px 0px;
     }
 
     #projects {

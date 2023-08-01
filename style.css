@@ -580,6 +580,13 @@ section{
     }
   }
 
+  @media (min-width:1000px) and (max-width:1300px){
+   
+    .jumbotron {
+        margin: 0px 0px
+    }
+  }
+
   @media (width <= 550px) {
 
     .jumbotron{
@@ -605,4 +612,37 @@ section{
     .aboutMePhone {
         text-align: center;
     }
+  }
+
+  .nav-link{
+    color:#002E7480 !important
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item>a:after,
+  .activeNavbar:after
+  {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -6px;
+    visibility: hidden;
+    left: 0;
+    background-color: #002E74;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .nav-item>a:hover:after,
+  .activeNavbar:after
+  {
+    visibility: visible;
+    width:100%;
+  }
+
+  .activeNavbar {
+    color:#002E74 !important
   }

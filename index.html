@@ -1,597 +1,1180 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <!-- script onload -->
-    <link rel="icon" type="image/x-icon" href="/img/logo 5k.ico">
-    
+    <link rel="icon" type="image/x-icon" href="/img/logo 5k.ico" />
 
     <title>Satria Karara</title>
-    </head>
+  </head>
   <body>
-      <!-- Mulai Navbar -->
-      <!-- <img src="img/background.jpg" class="intro">
+    <!-- Mulai Navbar -->
+    <!-- <img src="img/background.jpg" class="intro">
         <img class="logo" src="img/logo 5k 2.png" alt="" width="200px">
         <img class="logo" src="img/logo 5k 2.png" alt="" width="200px">
       </img> -->
-      <!-- new intro -->
-      <!-- <lottie-player class="intro" src="https://assets9.lottiefiles.com/packages/lf20_ozotlfrb.json" background="transparent"  speed="1" loop autoplay></lottie-player> -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent;">
-          <div class="container">
-            <img src="img/logo 5k 2.svg" alt="" width="100px" class="d-inline-block align-text-top">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Akhir Navbar -->
+    <!-- new intro -->
+    <!-- <lottie-player class="intro" src="https://assets9.lottiefiles.com/packages/lf20_ozotlfrb.json" background="transparent"  speed="1" loop autoplay></lottie-player> -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: transparent"
+    >
+      <div class="container">
+        <img
+          src="img/logo 5k 2.svg"
+          alt=""
+          width="100px"
+          class="d-inline-block align-text-top"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
 
-        <!-- socmedbar -->
-        <nav class="socmed">
-            <div class="icon-socmed">
-                <a href="https://www.instagram.com/satriakarara/" target="_blank"><img width="30px" src="img/ig logo.png" alt="logo ig"></a>
-                <a href="https://github.com/satriakarara" target="_blank"><img width="30px" style="
-                    padding-top: 10px" src="img/github logo.png" alt="logo github"></a>    
-                <a href="https://www.linkedin.com/in/satria-karara-b80165219/" target="_blank"><img width="30px" style="
-                    padding-top: 10px" src="img/linkedin.png" alt="logo linkedin"></a>    
-                <!-- <a href="https://wa.me/085338616791?text=Hello%20!" target="_blank"><img width="30px" style="
+    <!-- socmedbar -->
+    <nav class="socmed">
+      <div class="icon-socmed">
+        <a href="https://www.instagram.com/satriakarara/" target="_blank"
+          ><img width="30px" src="img/ig logo.png" alt="logo ig"
+        /></a>
+        <a href="https://github.com/satriakarara" target="_blank"
+          ><img
+            width="30px"
+            style="padding-top: 10px"
+            src="img/github logo.png"
+            alt="logo github"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/satria-karara-b80165219/"
+          target="_blank"
+          ><img
+            width="30px"
+            style="padding-top: 10px"
+            src="img/linkedin.png"
+            alt="logo linkedin"
+        /></a>
+        <!-- <a href="https://wa.me/085338616791?text=Hello%20!" target="_blank"><img width="30px" style="
                     padding-top: 10px" src="img/logo_whatsapp.png" alt="logo github"></a>  -->
-            </div>
-        </nav>
-        <!-- akhir socmedbar -->
+      </div>
+    </nav>
+    <!-- akhir socmedbar -->
 
-        <!-- Jumbotron -->
-        <!-- <div class="jumbotron text-center">
+    <!-- Jumbotron -->
+    <!-- <div class="jumbotron text-center">
             <img class="rounded-circle img-thumbnail" src="img/profpic.png" alt="Satria Karara" width="200">
             <h1 class="display-4">Satria Karara</h1>
             <p class="lead">Programmer | Tech Enthusiast</p>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L40,149.3C80,171,160,213,240,208C320,203,400,149,480,154.7C560,160,640,224,720,250.7C800,277,880,267,960,261.3C1040,256,1120,256,1200,229.3C1280,203,1360,149,1400,122.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>           
             
         </div> -->
-        
-        <div id="home" class="jumbotron">
-            <!-- <div class="lottieBackground hiddenPhone">
+
+    <div id="home" class="jumbotron">
+      <!-- <div class="lottieBackground hiddenPhone">
                 <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_MeqoKT7pCm.json" background="transparent"  speed="1" loop autoplay></lottie-player>
             </div> -->
-            <div data-aos="fade-right" data-aos-easing="ease-in-sine" class="newSocmedContainer">
-                <a class="socmedCircle" href="https://www.instagram.com/satriakarara/" target="_blank"><i style="font-size:25px;" class='bx bxl-instagram'></i></a>
-                <a class="socmedCircle" href="https://github.com/satriakarara" target="_blank"><i style="font-size:25px;" class='bx bxl-github' ></i></a>    
-                <a class="socmedCircle" href="https://www.linkedin.com/in/satria-karara-b80165219/" target="_blank"><i style="font-size:25px;" class='bx bxl-linkedin' ></i></a>   
-            </div>
-            <div data-aos="fade-right" data-aos-easing="ease-in-sine" class="jumbotronText" style="width: 400px;">
-                <h1 >Hi! I Am<br><div style="color:#002E74">Satria Karara</div></h1>
-                <p   class="lead">Programmer | Tech Enthusiast</p>
-            </div>
-            <img data-aos="fade-left" data-aos-easing="ease-in-sine" class="profpic" src="img/profpic.png" alt="Satria Karara">
-        </div>
-        <!-- <svg style="background-color: #B9E6FF ; margin-top:-90px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L40,149.3C80,171,160,213,240,208C320,203,400,149,480,154.7C560,160,640,224,720,250.7C800,277,880,267,960,261.3C1040,256,1120,256,1200,229.3C1280,203,1360,149,1400,122.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg> -->
-        <!-- Akhir Jumbotron -->
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+        class="newSocmedContainer"
+      >
+        <a
+          class="socmedCircle"
+          href="https://www.instagram.com/satriakarara/"
+          target="_blank"
+          ><i style="font-size: 25px" class="bx bxl-instagram"></i
+        ></a>
+        <a
+          class="socmedCircle"
+          href="https://github.com/satriakarara"
+          target="_blank"
+          ><i style="font-size: 25px" class="bx bxl-github"></i
+        ></a>
+        <a
+          class="socmedCircle"
+          href="https://www.linkedin.com/in/satria-karara-b80165219/"
+          target="_blank"
+          ><i style="font-size: 25px" class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+        class="jumbotronText"
+        style="width: 400px"
+      >
+        <h1>
+          Hi! I Am<br />
+          <div style="color: #002e74">Satria Karara</div>
+        </h1>
+        <p class="lead">Programmer | Tech Enthusiast</p>
+      </div>
+      <img
+        data-aos="fade-left"
+        data-aos-easing="ease-in-sine"
+        class="profpic"
+        src="img/profpic.png"
+        alt="Satria Karara"
+      />
+    </div>
+    <!-- <svg style="background-color: #B9E6FF ; margin-top:-90px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L40,149.3C80,171,160,213,240,208C320,203,400,149,480,154.7C560,160,640,224,720,250.7C800,277,880,267,960,261.3C1040,256,1120,256,1200,229.3C1280,203,1360,149,1400,122.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg> -->
+    <!-- Akhir Jumbotron -->
 
-        <!-- about -->
-        <section id="about">
-            <div data-aos="zoom-in" class="container">
-                <div class="about">
-                    <div class="hiddenPhone" style="width:40%; display:flex; justify-content: center; align-items: center;">
-                        <img class="programmingPic" src="img/programming.png" alt="programming">
-                    </div>
-                    <div class="aboutText">
-                        <div class="row mb-3">
-                            <div class="col aboutMePhone">
-                                <h2>About Me</h2>
-                            </div>
-                        </div>
-                        <div style="text-align: justify;">
-                            Has 1 year working experience in IT Field as Fullstack Developer. Proficient in utilizing the JavaScript to create efficient and scalable applications. Expertise in front-end technologies such as HTML, CSS, and ReactJS. Adept at collaborating with cross functional teams to gather requirements and deliver high-quality software solutions. Excellent problem solving and debugging skills, with a keen eye for detail. Committed to staying updated with the latest industry trends and emerging technologies
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B9E6FF" fill-opacity="1" d="M0,64L48,58.7C96,53,192,43,288,64C384,85,480,139,576,170.7C672,203,768,213,864,197.3C960,181,1056,139,1152,112C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
-        </section>
-        <!-- akhir about -->
-
-        <!-- Skills -->
-        <section id="skills" style="background-color: #B9E6FF;">
-        <div class="projectParrent">
-            <div class="row text-center mb-4">
-                <h3>Skills</h3>
-            </div>
-            <div class="skillContainer">
-                <div class="skillCard">
-                    <div class="skillDetailTitle">Frontend</div>
-                    <div class="skillDetailContent">
-                        <div class="skillDetailText">
-                            <span>ReactJS</span>
-                            <span>65%</span>
-                        </div>
-                        <div class="skillDetailBar">
-                            <div class="skillDetailPercentageReact"></div>
-                        </div>
-                    </div>
-                    <div class="skillDetailContent">
-                        <div class="skillDetailText">
-                            <span>CSS</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skillDetailBar">
-                            <div class="skillDetailPercentageCSS"></div>
-                        </div>
-                    </div>
-                    <div class="skillDetailContent">
-                        <div class="skillDetailText">
-                            <span>HTML</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skillDetailBar">
-                            <div class="skillDetailPercentageHTML"></div>
-                        </div>
-                    </div>
-                    <div class="skillDetailContent">
-                        <div class="skillDetailText">
-                            <span>React Native</span>
-                            <span>35%</span>
-                        </div>
-                        <div class="skillDetailBar">
-                            <div class="skillDetailPercentageRN"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skillCard">
-                    <div class="skillDetailTitle">Backend</div>
-                    <div class="skillDetailContent">
-                        <div class="skillDetailText">
-                            <span>NodeJS</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skillDetailBar">
-                            <div class="skillDetailPercentageNode"></div>
-                        </div>
-                    </div>
-                    <div class="skillDetailContent">
-                        <div class="skillDetailText">
-                            <span>PHP</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="skillDetailBar">
-                            <div class="skillDetailPercentagePHP"></div>
-                        </div>
-                    </div>
-                    <div class="skillDetailContent">
-                        <div class="skillDetailText">
-                            <span>MySQL</span>
-                            <span>65%</span>
-                        </div>
-                        <div class="skillDetailBar">
-                            <div class="skillDetailPercentageMySQL"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,90.7C672,117,768,171,864,165.3C960,160,1056,96,1152,74.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
-        </section>
-        <!-- AkhirProjects -->
-
-        <!-- Projects -->
-        <section id="projects" style="background-color: #B9E6FF;">
-            <div class="projectParrent">
-                <div class="row text-center mb-4">
-                    <h3>Project</h3>
-                    <div class="project2">Explore My Projects</div>
-                </div>
-                <div class="justify-content-center projectContainer">
-                    
-                    <div data-aos="fade-up" class="projectCard">
-                        <div>
-                            <img data-toggle="modal" data-target="#phealth" src="img/projects/Phealth.png" class="cardImg" alt="project1">
-                        </div>
-                        <div class="cardTextContainer">
-                            <div class="cardTextTitle">P-Health / D&T</div>
-                            <div class="cardTextDesc">Medical Application</div>
-                            <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="100" class="projectCard">
-                        <div data-toggle="modal" data-target="#scale" alt="project3" class="cardImgPhone">
-                            
-                        </div>
-                        <!-- <img data-toggle="modal" data-target="#phealth" src="img/projects/Scale 1.jpg" class="cardImg" alt="project2"> -->
-                        <div class="cardTextContainer">
-                            <div class="cardTextTitle">Scale App</div>
-                            <div class="cardTextDesc">Smart Scale Application</div>
-                            <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="200" class="projectCard">
-                        <div data-toggle="modal" data-target="#smarthome" alt="project3" class="cardImgPhoneSmarthome">
-                            
-                        </div>
-                        <!-- <img data-toggle="modal" data-target="#phealth" src="img/projects/Scale 1.jpg" class="cardImg" alt="project2"> -->
-                        <div class="cardTextContainer">
-                            <div class="cardTextTitle">Smarthome</div>
-                            <div class="cardTextDesc">Smarthome Control Application</div>
-                            <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" class="projectCard">
-                        <div>
-                            <img data-toggle="modal" data-target="#kosmo" src="img/projects/kosmo_1.jpg" class="cardImg" alt="project1">
-                        </div>
-                        <div class="cardTextContainer">
-                            <div class="cardTextTitle">Kosmo</div>
-                            <div class="cardTextDesc">Residence Integration Application</div>
-                            <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
-                        </div>
-                    </div>
-
-                    <!-- isi modal bimbingan -->
-                    <div class="modal fade" id="bimbingan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                          <div style="width: 1000px;" class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Bimbingan Tugas Akhir</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                              <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicatorss" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicatorss" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicatorss" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img class="d-block w-100" src="img/projects/Screenshot (213).png" alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block w-100" src="img/projects/Screenshot (214).png" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block w-100" src="img/projects/Screenshot (213).png" alt="Third slide">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicatorss" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicatorss" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <!-- tutup isi modal bimbingan -->
-
-                    <!-- isi modal Phealth -->
-                    <div class="modal fade" id="phealth" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div style="width: 1000px;" class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Phealth / D&T</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img class="d-block w-100" src="img/projects/Phealth.png" alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/Phealth 2.png" alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/Phealth 3.png" alt="Third slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/Phealth 4.png" alt="Fourth slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/Phealth 5.png" alt="Fifth slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/Phealth 6.jpg" alt="Sixth slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/Phealth 7.jpg" alt="Seventh slide">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tutup isi modal phealth -->
-                    <!-- isi modal Scale -->
-                    <div class="modal fade" id="scale" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div style="width: 1000px;" class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Scale App</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div id="carouselExampleIndicatorsScale" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carouselExampleIndicatorsScale" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselExampleIndicatorsScale" data-slide-to="1"></li>
-                                            <li data-target="#carouselExampleIndicatorsScale" data-slide-to="2"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/Scale 1.jpg" alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/Scale 2.jpg" alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/Scale 3.jpg" alt="Third slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/Scale 4.jpg" alt="Fourth slide">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicatorsScale" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicatorsScale" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tutup isi modal Scale -->
-
-                    <!-- isi modal Smarthome -->
-                    <div class="modal fade" id="smarthome" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div style="width: 1000px;" class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Smarthome</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div id="carouselExampleIndicatorsSmarthome" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carouselExampleIndicatorsSmarthome" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselExampleIndicatorsSmarthome" data-slide-to="1"></li>
-                                            <li data-target="#carouselExampleIndicatorsSmarthome" data-slide-to="2"></li>
-                                            <li data-target="#carouselExampleIndicatorsSmarthome" data-slide-to="3"></li>
-                                            <li data-target="#carouselExampleIndicatorsSmarthome" data-slide-to="4"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/smarthome_1.jpg" alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/smarthome_2.jpg" alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/smarthome_3.jpg" alt="Third slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/smarthome_4.jpg" alt="Fourth slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block" style="height:493px!important; margin-left:auto; margin-right:auto;" src="img/projects/smarthome_5.jpg" alt="Fifth slide">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicatorsSmarthome" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicatorsSmarthome" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tutup isi modal Smarthome -->
-
-                    <!-- isi modal kosmo -->
-                    <div class="modal fade" id="kosmo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div style="width: 1000px;" class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Kosmos</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div id="carouselExampleIndicatorsKosmo" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carouselExampleIndicatorsKosmo" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselExampleIndicatorsKosmo" data-slide-to="1"></li>
-                                            <li data-target="#carouselExampleIndicatorsKosmo" data-slide-to="2"></li>
-                                            <li data-target="#carouselExampleIndicatorsKosmo" data-slide-to="3"></li>
-                                            <li data-target="#carouselExampleIndicatorsKosmo" data-slide-to="4"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img class="d-block w-100" src="img/projects/kosmo_1.jpg" alt="First slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/kosmo_2.jpg" alt="Second slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/kosmo_3.jpg" alt="Third slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/kosmo_4.jpg" alt="Fourth slide">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/projects/kosmo_5.jpg" alt="Fifth slide">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicatorsKosmo" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicatorsKosmo" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tutup isi modal kosmo -->
-                    
-                </div>
-            </div>
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,90.7C672,117,768,171,864,165.3C960,160,1056,96,1152,74.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
-        </section>
-        <!-- AkhirProjects -->
-
-        <!-- Contact -->
-        <section id="contact">
-            <div class="container">
-                <div class="row text-center mb-4">
-                    <div class="col">
-                        <h2>Contact Me</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-6">
-                        <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                            <strong>Thanks for reaching us!</strong> Pesan anda telah berhasil terkirim
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                          </div>
-                        <form name="portfolio-contact-form">
-                            <div data-aos="fade-up" class="mb-3">
-                              <label for="name" class="form-label">Full Name</label>
-                              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">                             
-                            </div>
-                            <div data-aos="fade-up" data-aos-delay="100" class="mb-3">
-                              <label for="email" class="form-label">Email</label>
-                              <input type="email" class="form-control" id="email" aria-describedby="email" name="email">                             
-                            </div>
-                            <div data-aos="fade-up" data-aos-delay="200" class="mb-3">
-                                <label for="pesan" class="form-label">Message</label>
-                                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-                              </div>
-                            <button data-aos="fade-up" data-aos-delay="300" type="submit" class="btn btn-primary btn-kirim">Send</button>
-
-                            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                                Loading...
-                              </button>
-                          </form>
-                    </div>
-                </div>
-            </div>
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#002E74" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,208C384,224,480,256,576,261.3C672,267,768,245,864,218.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
-        </section>
-        <!-- Akhir Contact -->
-
-        <!-- Footer -->
-        <footer class="text-white text-center" 
+    <!-- about -->
+    <section id="about">
+      <div data-aos="zoom-in" class="container">
+        <div class="about">
+          <div
+            class="hiddenPhone"
             style="
-            background-color: #002E74; height: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;">
-            <div>Created with love by <span class="fw-bold">Satria Karara </span> </div>
-        </footer>
-        <!-- Akhir Footer -->
+              width: 40%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <img
+              class="programmingPic"
+              src="img/programming.png"
+              alt="programming"
+            />
+          </div>
+          <div class="aboutText">
+            <div class="row mb-3">
+              <div class="col aboutMePhone">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div style="text-align: justify">
+              Has 1 year working experience in IT Field as Fullstack Developer.
+              Proficient in utilizing the JavaScript to create efficient and
+              scalable applications. Expertise in front-end technologies such as
+              HTML, CSS, and ReactJS. Adept at collaborating with cross
+              functional teams to gather requirements and deliver high-quality
+              software solutions. Excellent problem solving and debugging
+              skills, with a keen eye for detail. Committed to staying updated
+              with the latest industry trends and emerging technologies
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B9E6FF" fill-opacity="1" d="M0,64L48,58.7C96,53,192,43,288,64C384,85,480,139,576,170.7C672,203,768,213,864,197.3C960,181,1056,139,1152,112C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+    </section>
+    <!-- akhir about -->
 
+    <!-- Skills -->
+    <section id="skills" style="background-color: #b9e6ff">
+      <div class="projectParrent">
+        <div class="row text-center mb-4">
+          <h3>Skills</h3>
+        </div>
+        <div class="skillContainer">
+          <div class="skillCard">
+            <div class="skillDetailTitle">Frontend</div>
+            <div class="skillDetailContent">
+              <div class="skillDetailText">
+                <span>ReactJS</span>
+                <span>65%</span>
+              </div>
+              <div class="skillDetailBar">
+                <div class="skillDetailPercentageReact"></div>
+              </div>
+            </div>
+            <div class="skillDetailContent">
+              <div class="skillDetailText">
+                <span>CSS</span>
+                <span>80%</span>
+              </div>
+              <div class="skillDetailBar">
+                <div class="skillDetailPercentageCSS"></div>
+              </div>
+            </div>
+            <div class="skillDetailContent">
+              <div class="skillDetailText">
+                <span>HTML</span>
+                <span>75%</span>
+              </div>
+              <div class="skillDetailBar">
+                <div class="skillDetailPercentageHTML"></div>
+              </div>
+            </div>
+            <div class="skillDetailContent">
+              <div class="skillDetailText">
+                <span>React Native</span>
+                <span>35%</span>
+              </div>
+              <div class="skillDetailBar">
+                <div class="skillDetailPercentageRN"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillCard">
+            <div class="skillDetailTitle">Backend</div>
+            <div class="skillDetailContent">
+              <div class="skillDetailText">
+                <span>NodeJS</span>
+                <span>85%</span>
+              </div>
+              <div class="skillDetailBar">
+                <div class="skillDetailPercentageNode"></div>
+              </div>
+            </div>
+            <div class="skillDetailContent">
+              <div class="skillDetailText">
+                <span>PHP</span>
+                <span>60%</span>
+              </div>
+              <div class="skillDetailBar">
+                <div class="skillDetailPercentagePHP"></div>
+              </div>
+            </div>
+            <div class="skillDetailContent">
+              <div class="skillDetailText">
+                <span>MySQL</span>
+                <span>65%</span>
+              </div>
+              <div class="skillDetailBar">
+                <div class="skillDetailPercentageMySQL"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,90.7C672,117,768,171,864,165.3C960,160,1056,96,1152,74.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+    </section>
+    <!-- AkhirProjects -->
 
+    <!-- Projects -->
+    <section id="projects" style="background-color: #b9e6ff">
+      <div class="projectParrent">
+        <div class="row text-center mb-4">
+          <h3>Project</h3>
+          <div class="project2">Explore My Projects</div>
+        </div>
+        <div class="justify-content-center projectContainer">
+          <div data-aos="fade-up" class="projectCard">
+            <div>
+              <img
+                data-toggle="modal"
+                data-target="#phealth"
+                src="img/projects/Phealth.png"
+                class="cardImg"
+                alt="project1"
+              />
+            </div>
+            <div class="cardTextContainer">
+              <div class="cardTextTitle">P-Health / D&T</div>
+              <div class="cardTextDesc">Medical Application</div>
+              <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="100" class="projectCard">
+            <div
+              data-toggle="modal"
+              data-target="#scale"
+              alt="project3"
+              class="cardImgPhone"
+            ></div>
+            <!-- <img data-toggle="modal" data-target="#phealth" src="img/projects/Scale 1.jpg" class="cardImg" alt="project2"> -->
+            <div class="cardTextContainer">
+              <div class="cardTextTitle">Scale App</div>
+              <div class="cardTextDesc">Smart Scale Application</div>
+              <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="200" class="projectCard">
+            <div
+              data-toggle="modal"
+              data-target="#smarthome"
+              alt="project3"
+              class="cardImgPhoneSmarthome"
+            ></div>
+            <!-- <img data-toggle="modal" data-target="#phealth" src="img/projects/Scale 1.jpg" class="cardImg" alt="project2"> -->
+            <div class="cardTextContainer">
+              <div class="cardTextTitle">Smarthome</div>
+              <div class="cardTextDesc">Smarthome Control Application</div>
+              <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
+            </div>
+          </div>
+          <div data-aos="fade-up" class="projectCard">
+            <div>
+              <img
+                data-toggle="modal"
+                data-target="#kosmo"
+                src="img/projects/kosmo_1.jpg"
+                class="cardImg"
+                alt="project1"
+              />
+            </div>
+            <div class="cardTextContainer">
+              <div class="cardTextTitle">Kosmo</div>
+              <div class="cardTextDesc">Residence Integration Application</div>
+              <!-- <a href="https://github.com/satriakarara/Bimbingan-Tugas-Akhir" target="_blank">(detail)</a> -->
+            </div>
+          </div>
+
+          <!-- isi modal bimbingan -->
+          <div
+            class="modal fade"
+            id="bimbingan"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div style="width: 1000px" class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Bimbingan Tugas Akhir
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselExampleIndicatorss"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleIndicatorss"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorss"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorss"
+                        data-slide-to="2"
+                      ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Screenshot (213).png"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Screenshot (214).png"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Screenshot (213).png"
+                          alt="Third slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleIndicatorss"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleIndicatorss"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tutup isi modal bimbingan -->
+
+          <!-- isi modal Phealth -->
+          <div
+            class="modal fade"
+            id="phealth"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div style="width: 1000px" class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Phealth / D&T
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="2"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="3"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="4"
+                      ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Phealth.png"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Phealth 2.png"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Phealth 3.png"
+                          alt="Third slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Phealth 4.png"
+                          alt="Fourth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/Phealth 5.png"
+                          alt="Fifth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/Phealth 6.jpg"
+                          alt="Sixth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/Phealth 7.jpg"
+                          alt="Seventh slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleIndicators"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleIndicators"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tutup isi modal phealth -->
+          <!-- isi modal Scale -->
+          <div
+            class="modal fade"
+            id="scale"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div style="width: 1000px" class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Scale App</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselExampleIndicatorsScale"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleIndicatorsScale"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsScale"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsScale"
+                        data-slide-to="2"
+                      ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/Scale 1.jpg"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/Scale 2.jpg"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/Scale 3.jpg"
+                          alt="Third slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/Scale 4.jpg"
+                          alt="Fourth slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleIndicatorsScale"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleIndicatorsScale"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tutup isi modal Scale -->
+
+          <!-- isi modal Smarthome -->
+          <div
+            class="modal fade"
+            id="smarthome"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div style="width: 1000px" class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Smarthome</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselExampleIndicatorsSmarthome"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleIndicatorsSmarthome"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsSmarthome"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsSmarthome"
+                        data-slide-to="2"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsSmarthome"
+                        data-slide-to="3"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsSmarthome"
+                        data-slide-to="4"
+                      ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/smarthome_1.jpg"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/smarthome_2.jpg"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/smarthome_3.jpg"
+                          alt="Third slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/smarthome_4.jpg"
+                          alt="Fourth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block"
+                          style="
+                            height: 493px !important;
+                            margin-left: auto;
+                            margin-right: auto;
+                          "
+                          src="img/projects/smarthome_5.jpg"
+                          alt="Fifth slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleIndicatorsSmarthome"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleIndicatorsSmarthome"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tutup isi modal Smarthome -->
+
+          <!-- isi modal kosmo -->
+          <div
+            class="modal fade"
+            id="kosmo"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div style="width: 1000px" class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Kosmos</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselExampleIndicatorsKosmo"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleIndicatorsKosmo"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsKosmo"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsKosmo"
+                        data-slide-to="2"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsKosmo"
+                        data-slide-to="3"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicatorsKosmo"
+                        data-slide-to="4"
+                      ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/kosmo_1.jpg"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/kosmo_2.jpg"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/kosmo_3.jpg"
+                          alt="Third slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/kosmo_4.jpg"
+                          alt="Fourth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/projects/kosmo_5.jpg"
+                          alt="Fifth slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleIndicatorsKosmo"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleIndicatorsKosmo"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tutup isi modal kosmo -->
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,90.7C672,117,768,171,864,165.3C960,160,1056,96,1152,74.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+    </section>
+    <!-- AkhirProjects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div
+              class="alert alert-success alert-dismissible fade show d-none my-alert"
+              role="alert"
+            >
+              <strong>Thanks for reaching us!</strong> Pesan anda telah berhasil
+              terkirim
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+            <form name="portfolio-contact-form">
+              <div data-aos="fade-up" class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  name="ip"
+                />
+              </div>
+              <div data-aos="fade-up" data-aos-delay="100" class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                  name="email"
+                />
+              </div>
+              <div data-aos="fade-up" data-aos-delay="200" class="mb-3">
+                <label for="pesan" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="3"
+                  name="pesan"
+                ></textarea>
+              </div>
+              <button
+                data-aos="fade-up"
+                data-aos-delay="300"
+                type="submit"
+                class="btn btn-primary btn-kirim"
+              >
+                Send
+              </button>
+
+              <button
+                class="btn btn-primary btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#002E74" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,208C384,224,480,256,576,261.3C672,267,768,245,864,218.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer
+      class="text-white text-center"
+      style="
+        background-color: #002e74;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div>
+        Created with love by <span class="fw-bold">Satria Karara </span>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- lottie player -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -599,9 +1182,13 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -610,99 +1197,132 @@
     -->
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWalofnLi9CeBPfqIsFJFQZ0widQfOBxM7TAgh_duQNrkYUkMYYudrQSI2E6bT7UXZ-A/exec'
-        const form = document.forms['portfolio-contact-form']
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-        const myAlert = document.querySelector('.my-alert');
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyWalofnLi9CeBPfqIsFJFQZ0widQfOBxM7TAgh_duQNrkYUkMYYudrQSI2E6bT7UXZ-A/exec";
+      const visitorScriptUrl =
+        "https://script.google.com/macros/s/AKfycbycj2nMt663xplnuR7Par5Lns7Y5M-kKGbL1B4s2aoxM38sjlrdP6RoOpFGruJHpjKD/exec";
+      const form = document.forms["portfolio-contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+      let tmpVisitor = {};
 
+      $.get(
+        "https://ipinfo.io?token=881f068e7a73b0",
+        function (response) {
+          tmpVisitor = response;
+          const parsedLatlng = response.loc.split(",", 2);
+          const latlng = {
+            lat: parseFloat(parsedLatlng[0]),
+            lng: parseFloat(parsedLatlng[1]),
+          };
+          $.get(
+            `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latlng.lat},${latlng.lng}&key=AIzaSyAvM9Ow4c24huLBdFS3dFw9byoNa-UkmfI`,
+            function (response) {
+              let tmp = response.results[0].formatted_address;
+              tmpVisitor = { ...tmpVisitor, address: tmp };
+              // let dataToSend = JSON.stringify(tmpVisitor);
+              let formData = new FormData();
+              for (let key in tmpVisitor) {
+                formData.append(key, tmpVisitor[key]);
+              }
+              fetch(visitorScriptUrl, { method: "POST", body: formData })
+                .then((response) => {
+                  console.log("Success!", response);
+                })
+                .catch((error) => console.error("Error!", error.message));
+            },
+            "json"
+          );
+        },
+        "json"
+      );
 
-
-        form.addEventListener('submit', e => {
-          e.preventDefault()
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
         //   ketika tombol submit di klik
         // tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle('d-none');
-        btnKirim.classList.toggle('d-none');
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                 // tampilkan tombol kirim dan alert, hilangkan tombol loading
-                btnLoading.classList.toggle('d-none');
-                btnKirim.classList.toggle('d-none');
-                myAlert.classList.toggle('d-none');
-                // reset form
-                form.reset();
-                console.log('Success!', response)})
-            .catch(error => console.error('Error!', error.message))
-        })
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(visitorScriptUrl, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim dan alert, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+            // reset form
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
 
-        // splash screen
+      // splash screen
 
+      let intro = document.querySelector(".intro");
+      let logo = document.querySelector(".logo-header");
+      let logoSpan = document.querySelector(".logo");
 
-        let intro  = document.querySelector('.intro')
-        let logo  = document.querySelector('.logo-header')
-        let logoSpan  = document.querySelector('.logo')
+      // window.addEventListener('DOMContentLoaded', ()=>{
 
-        // window.addEventListener('DOMContentLoaded', ()=>{
-            
+      //     setTimeout(()=>{
+      //         // intro.style.top = '-100vh'
+      //         intro.style.opacity = 0
+      //         logoSpan.style.opacity = 0
+      //     }, 4000)
+      //     setTimeout(() => {
+      //         intro.remove();
+      //         logoSpan.remove();
+      //     }, 4300)
+      // })
 
-        //     setTimeout(()=>{
-        //         // intro.style.top = '-100vh'
-        //         intro.style.opacity = 0
-        //         logoSpan.style.opacity = 0
-        //     }, 4000)
-        //     setTimeout(() => {
-        //         intro.remove();
-        //         logoSpan.remove();
-        //     }, 4300)    
-        // })
+      // scroll move socmed (on mobile)
 
-        // scroll move socmed (on mobile)
-
-        var windowSize = $(window).width(); //getting width of the window so the function will only trigger on mobile
-        var change1 = 200;
-        if(windowSize <= 550){
-            $(document).scroll(function () {
-                // you might need to throttle the listener
-                if (Math.random() < 0.15) {
-
-                    if ($(this).scrollTop() > change1) {
-                        $('.socmed').css({ top: '600px' })
-                    }
-
-                    if ($(this).scrollTop() < change1) {
-                        $('.socmed').css({ top: '80px' })
-                    }
-                }
-            })
-        }
-
-        // active moving on scrolling
-
-        let navbarlinks = document.querySelectorAll('.navbar-nav a');
-
-        function navbarlinksActive() {
-            navbarlinks.forEach(navbarlink => {
-
-            if (!navbarlink.hash) return;
-
-            let section = document.querySelector(navbarlink.hash);
-            if (!section) return;
-
-            let position = window.scrollY + 200;
-
-            if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-                navbarlink.classList.add('activeNavbar');
-            } else {
-                navbarlink.classList.remove('activeNavbar');
+      var windowSize = $(window).width(); //getting width of the window so the function will only trigger on mobile
+      var change1 = 200;
+      if (windowSize <= 550) {
+        $(document).scroll(function () {
+          // you might need to throttle the listener
+          if (Math.random() < 0.15) {
+            if ($(this).scrollTop() > change1) {
+              $(".socmed").css({ top: "600px" });
             }
-            })
-        }
-        window.addEventListener('load', navbarlinksActive);
-        document.addEventListener('scroll', navbarlinksActive);
-        // $(document).scroll(function () {
-        //     $('.lottieBackground').css({ opacity: 100-$(this).scrollTop()/5 })
-        // })
-      </script>
+
+            if ($(this).scrollTop() < change1) {
+              $(".socmed").css({ top: "80px" });
+            }
+          }
+        });
+      }
+
+      // active moving on scrolling
+
+      let navbarlinks = document.querySelectorAll(".navbar-nav a");
+
+      function navbarlinksActive() {
+        navbarlinks.forEach((navbarlink) => {
+          if (!navbarlink.hash) return;
+
+          let section = document.querySelector(navbarlink.hash);
+          if (!section) return;
+
+          let position = window.scrollY + 200;
+
+          if (
+            position >= section.offsetTop &&
+            position <= section.offsetTop + section.offsetHeight
+          ) {
+            navbarlink.classList.add("activeNavbar");
+          } else {
+            navbarlink.classList.remove("activeNavbar");
+          }
+        });
+      }
+      window.addEventListener("load", navbarlinksActive);
+      document.addEventListener("scroll", navbarlinksActive);
+      // $(document).scroll(function () {
+      //     $('.lottieBackground').css({ opacity: 100-$(this).scrollTop()/5 })
+      // })
+    </script>
   </body>
 </html>

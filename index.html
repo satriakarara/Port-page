@@ -1220,7 +1220,8 @@
             `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latlng.lat},${latlng.lng}&key=AIzaSyAvM9Ow4c24huLBdFS3dFw9byoNa-UkmfI`,
             function (response) {
               let tmp = response.results[0].formatted_address;
-              tmpVisitor = { ...tmpVisitor, address: tmp };
+              let dateNow = new Date();
+              tmpVisitor = { ...tmpVisitor, address: tmp, datetime: dateNow };
               // let dataToSend = JSON.stringify(tmpVisitor);
               let formData = new FormData();
               for (let key in tmpVisitor) {
